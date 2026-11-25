@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#010C29" />
+  <meta name="description" content="Ferramentas digitais úteis, criadas por Algusto. Conheça projetos e utilitários para o dia a dia." />
+  <title>lab.gusto — ferramentas digitais</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
+  <header class="topbar wrap">
+    <a class="brand" href="#inicio" aria-label="lab.gusto, início"><span class="brand-mark">l<span>.</span></span><span>lab<span class="brand-muted">.gusto</span></span></a>
+    <nav class="nav-links" aria-label="Navegação principal">
+      <a href="#ferramentas">Ferramentas</a><a href="#sobre">Sobre</a>
+    </nav>
+    <a class="header-cta" href="#ferramentas">Explorar ferramentas <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero wrap" id="inicio">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> UM LABORATÓRIO DE IDEIAS ÚTEIS</div>
+        <h1>Pequenas ferramentas.<br><span>Grandes atalhos.</span></h1>
+        <p class="hero-lede">Utilitários digitais criados para resolver problemas reais — com cuidado no código e simplicidade no uso.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#ferramentas">Conheça as ferramentas <span>↓</span></a><a class="text-link" href="#sobre">Conheça o laboratório <span>↗</span></a></div>
+        <div class="hero-note"><span class="note-line"></span><span>Criado por <b>Algusto</b> · Brasília, Brasil</span></div>
+      </div>
+      <div class="hero-art" aria-label="Prévia de uma interface de ferramenta">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="preview-card">
+          <div class="preview-top"><div class="window-dots"><i></i><i></i><i></i></div><span class="preview-label">LAB.GUSTO <b>·</b> TOOL 001</span><span class="preview-more">•••</span></div>
+          <div class="preview-inner"><div class="preview-icon">▶</div><div class="preview-title">Conversor de vídeo</div><div class="preview-sub">Pronto para o próximo formato?</div>
+            <div class="preview-url"><span>↗</span> Cole um link do YouTube <span class="url-plus">+</span></div>
+            <div class="format-row"><span class="format active">MP3 <small>ÁUDIO</small></span><span class="format">MP4 <small>VÍDEO</small></span><span class="format-quality">QUALIDADE<br><b>Máxima</b></span></div>
+            <div class="preview-submit">Preparar conversão <span>→</span></div>
+          </div>
+          <div class="preview-foot"><span><i class="status-dot"></i> Aplicativo para Windows</span><span>01 / 04</span></div>
+        </div>
+        <div class="float-chip chip-top"><span>✳</span> projetos em evolução</div><div class="float-chip chip-bottom"><span class="chip-check">✓</span> feito para ser útil</div>
+      </div>
+      <div class="hero-gridline"></div>
+    </section>
+
+    <section class="tools-section wrap" id="ferramentas">
+      <div class="section-heading"><div><div class="eyebrow section-eyebrow">01 / CAIXA DE FERRAMENTAS</div><h2>Escolha um atalho.</h2><p>Ferramentas simples, com uma função clara e sem complicação.</p></div><div class="tool-count"><span class="count-number">04</span><span>PROJETOS<br>NO LAB</span></div></div>
+      <div class="tool-controls"><div class="filters" role="tablist" aria-label="Filtrar ferramentas"><button class="filter active" data-filter="todos">Tudo <span>04</span></button><button class="filter" data-filter="video">Vídeo <span>01</span></button><button class="filter" data-filter="dev">Desenvolvimento <span>01</span></button><button class="filter" data-filter="foco">Foco <span>01</span></button></div><label class="search-box"><span>⌕</span><input id="search" type="search" placeholder="Buscar ferramenta" aria-label="Buscar ferramenta"></label></div>
+      <div class="tool-grid" id="tool-grid">
+        <article class="tool-card featured" data-category="video" data-search="youtube mp3 mp4 vídeo conversor conversão baixar">
+          <div class="card-top"><span class="tool-icon video-icon">▶</span><span class="availability"><i></i> DISPONÍVEL</span></div><div class="card-number">FERRAMENTA 001</div><h3>YouTube → MP3 / MP4</h3><p>Converta vídeos para áudio MP3 ou baixe em MP4 com a melhor qualidade disponível.</p><div class="card-tags"><span>Vídeo</span><span>Windows</span><span>yt-dlp</span></div><button class="card-link open-tool" data-tool="youtube">Conhecer ferramenta <span>↗</span></button><span class="card-decoration">01</span>
+        </article>
+        <article class="tool-card" data-category="dev" data-search="json formatar formatador desenvolvedor código">
+          <div class="card-top"><span class="tool-icon braces-icon">{ }</span><span class="availability soon"><i></i> EM BREVE</span></div><div class="card-number">FERRAMENTA 002</div><h3>JSON Formatter</h3><p>Organize, valide e leia estruturas JSON com mais facilidade.</p><div class="card-tags"><span>Desenvolvimento</span><span>Web</span></div><button class="card-link open-tool" data-tool="json">Acompanhar projeto <span>↗</span></button><span class="card-decoration">02</span>
+        </article>
+        <article class="tool-card" data-category="foco" data-search="pomodoro foco tempo produtividade">
+          <div class="card-top"><span class="tool-icon focus-icon">◷</span><span class="availability soon"><i></i> EM BREVE</span></div><div class="card-number">FERRAMENTA 003</div><h3>Timer de foco</h3><p>Um temporizador leve para organizar sessões de concentração e pausas.</p><div class="card-tags"><span>Produtividade</span><span>Web</span></div><button class="card-link open-tool" data-tool="focus">Acompanhar projeto <span>↗</span></button><span class="card-decoration">03</span>
+        </article>
+        <article class="tool-card idea-card" data-category="dev" data-search="ideias próximas ferramentas projetos">
+          <div class="card-top"><span class="tool-icon idea-icon">✳</span><span class="availability soon"><i></i> EM DESENVOLVIMENTO</span></div><div class="card-number">FERRAMENTA 004</div><h3>O próximo atalho?</h3><p>Este espaço está aberto para novas ideias. O laboratório cresce a cada projeto.</p><div class="card-tags"><span>Novas ideias</span><span>Em breve</span></div><a class="card-link" href="#sobre">Sobre o laboratório <span>↗</span></a><span class="card-decoration">04</span>
+        </article>
+      </div>
+      <div class="empty-state" id="empty-state" hidden>Nenhuma ferramenta encontrada. Tente outro termo.</div>
+    </section>
+
+    <section class="about-section" id="sobre"><div class="wrap about-wrap"><div class="about-index"><span>02</span><span class="index-line"></span> SOBRE O LAB</div><div class="about-content"><h2>Tecnologia boa é a que<br><span>tira algo do caminho.</span></h2><div class="about-bottom"><p>O lab.gusto reúne projetos autorais e ferramentas feitas para tornar tarefas do dia a dia mais diretas. Cada ideia é uma oportunidade de aprender, construir e compartilhar.</p><div class="about-stamp"><span>IDEIAS EM<br> MOVIMENTO</span><b>LG<span>.</span></b></div></div></div></div></section>
+  </main>
+
+  <footer class="footer wrap"><a class="brand footer-brand" href="#inicio"><span class="brand-mark">l<span>.</span></span><span>lab<span class="brand-muted">.gusto</span></span></a><span class="footer-copy">Feito com curiosidade e código. <span>© 2026</span></span><a class="back-top" href="#inicio">VOLTAR AO TOPO ↑</a></footer>
+
+  <div class="modal-backdrop" id="modal" aria-hidden="true"><section class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title"><button class="modal-close" aria-label="Fechar">×</button><div class="modal-kicker">LAB.GUSTO <span>·</span> FERRAMENTA 001</div><div class="modal-icon">▶</div><h2 id="modal-title">YouTube → MP3 / MP4</h2><p id="modal-copy">Converta vídeos do YouTube em áudio MP3 ou baixe o vídeo em MP4. O conversor atual funciona como aplicativo para Windows.</p><div class="modal-details"><div><span>FORMATO</span><b>MP3 ou MP4</b></div><div><span>PLATAFORMA</span><b>Windows</b></div><div><span>STATUS</span><b><i class="status-dot"></i> Disponível</b></div></div><div class="modal-note">A versão hospedada neste site ainda está em planejamento. Esta página apresenta o projeto e seu funcionamento atual.</div><button class="button button-primary modal-action" id="modal-action">Entendi <span>→</span></button></section></div>
+  <script src="app.js"></script>
+</body>
+</html>
